@@ -1,9 +1,5 @@
 from actions import *
 
-texto_puro = 'eu te amo JESSICA, testando o x da xuxa'
-casas = 1
-# tipo = 0
-
 print("----------------- CRIPTOGRAFIA DE JULIO CESAR -----------------\n")
 tipo = input("O que você quer fazer? Digite [0] para CRIPTOGRAFAR ou [1] para DESCRIPTOGRAFAR: ")
 
