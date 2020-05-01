@@ -8,7 +8,6 @@ if tipo == '0':
     casas = int(input("Quantas casas nós vamos usar para criptografar essa mensagem? "))
     texto_cifrado = criptografando(mensagem, casas)
     print("Aqui está seu texto criptografado: ", texto_cifrado)
-
 elif tipo == '1':
     mensagem = input("OK, vamos decifrar! Digite a mensagem: ")
     casas = int(input("Com quantas casas a mensagem foi criptografada? "))
